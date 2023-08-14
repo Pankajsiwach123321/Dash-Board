@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none ;
+    list-style-type: none ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+
+.open {
+    display: flex;
+    width: 230px;
+    padding: 13px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.cover {
+    opacity: 0.25;
+    background: #000;
+}
+
+.open:hover {
+    background: var(--gradient, linear-gradient(138deg, #128DFF 0%, #1444EF 100%));
+    color: #FFF;
+}
+
+.bar {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.link {
+    color: var(--blue, #128DFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+button {
+    color: var(--blue, #128DFF);
+    border-radius: 4px;
+    border: 1px solid var(--blue, #128DFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ul-position {
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    z-index: 1;
+    transition: all linear 1s;
+}
+
+.speed {
+    transition: all linear 1s;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: #000000ac;
+    z-index: 0;
+    transition: all linear 1s;
+}
+
+.left {
+    left: 0;
+}
+
+.svg {
+    padding-left: 200px;
+    cursor: pointer;
+}
+
+.pad {
+    padding-top: 78px;
+}
+
+ul {
+    width: 286px;
+    height: 100vh;
+    flex-shrink: 0;
+    border-radius: 0px 16px 16px 0px;
+    background: var(--white, #FFF);
+    box-shadow: 9px 4px 26px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.box {
+    display: flex;
+    width: 230px;
+    padding: 13px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--blue, #128DFF);
+}
+
+.box:hover {
+    background: var(--gradient, linear-gradient(138deg, #128DFF 0%, #1444EF 100%));
+    color: #fff;
+}

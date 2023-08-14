@@ -1,0 +1,16 @@
+:root {
+    --fs-sm: 12px;
+    --fs-md: 12px;
+    --fs-xl: 20px;
+    --fs-xxl: 24px;
+    /* color */
+    --tx-color-primary: #666666;
+    --tx-color-secandary: #000000;
+    /* font weight */
+    --font-family: 'Poppins', sans-serif;
+    /* font-weight */
+    --fw-sm: 400;
+    --fw-md: 500;
+    --fw-xl: 600;
+    --fw-xxl: 700;
+}
